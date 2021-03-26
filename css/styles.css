@@ -933,7 +933,7 @@ textarea {
 
 .modal-form-btn:hover,
 .modal-form-btn:focus {
-  background-color: var(--accent-colour);
+  background-color: var(--third-bg-colour);
   color: #ffffff;
 }
 
