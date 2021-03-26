@@ -930,9 +930,10 @@ textarea {
   border-radius: 4px;
   margin-top: 30px;
   transition: background-color 250ms var(--timing-function);
-
+}
+  
 .modal-form-btn:hover,
-.modal-form-btn:focus {
+.modal-modal-btn:focus {
   background-color: var(--third-bg-colour);
 }
 
