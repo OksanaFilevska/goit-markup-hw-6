@@ -774,8 +774,9 @@ color: var(--primary-bg-colour);
 }
 
 .modal-close-button:hover .modal-button-svg {
-  fill: var(--accent-color);
+  fill: var(--accent-colour);
 }
+
 textarea {
   resize: none;
 }
