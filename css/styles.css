@@ -914,8 +914,8 @@ textarea {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: var(--primary-background-color);
-  background-color: var(--accent-color);
+  color: var(--primary-bg-colour);
+  background-color: var(--accent-colour);
 
   display: inline-block;
   padding: 10px 32px;
@@ -930,7 +930,8 @@ textarea {
   
 .modal-form-btn:hover,
 .modal-modal-btn:focus {
-  background-color: var(--third-bg-colour);
+  background-color: 
+  var(--third-bg-colour);
 }
 
 /*   END BACKDROP   */
