@@ -772,8 +772,7 @@ color: var(--primary-bg-colour);
   fill: currentColor;
   transition: fill 250ms var(--timing-function);
 }
-
-.modal-button:hover .modal-button-svg {
+.modal-button:hover .modal-close-btn {
   fill: var(--accent-colour);
 }
 
