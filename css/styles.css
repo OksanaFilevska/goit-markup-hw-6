@@ -809,6 +809,8 @@ textarea {
 
 .modal-form-input-wrapper {
   position: relative;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .modal-form-input {
@@ -826,11 +828,6 @@ textarea {
   border-color: var(--accent-colour);
 } 
 
-.modal-form-input-wrapper {
-  display: block;
-  margin-bottom: 10px;
-}
-
 .modal-form-icon {
   position: absolute;
   top: 50%;
@@ -842,7 +839,7 @@ textarea {
 }
 
 .modal-form-input:focus + .modal-form-icon {
-  background-color: var(--accent-colour);
+  fill: var(--accent-colour);
 }
 
 .modal-form-message {
