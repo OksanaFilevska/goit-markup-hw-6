@@ -908,23 +908,28 @@ textarea {
 }
 
 
-.modal-form-btn {
-  min-width: 160px;
-  padding: 12px 20px;
-  border: 1px solid #ff6c00;
-  border-radius: 25px;
-  align-self: center;
 
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+.modal-form-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
-  background-color: transparent;
-  color: #303030;
-  transition: color 250ms linear, background-color 250ms linear;
-}
+  color: var(--primary-bg-colour);
+  background-color: var(--accent-colour);
+
+  display: inline-block;
+  padding: 10px 32px;
+
+  min-width: 200px;
+  border-style: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-top: 30px;
+  transition: background-color 250ms var(--timing-function);
 
 .modal-form-btn:hover,
 .modal-form-btn:focus {
