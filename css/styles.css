@@ -768,12 +768,12 @@ color: var(--primary-bg-colour);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer; 
 }
-.modal-button-svg {
+.modal-close-btn {
   fill: currentColor;
   transition: fill 250ms var(--timing-function);
 }
 
-.modal-close-button:hover .modal-button-svg {
+.modal-button:hover .modal-button-svg {
   fill: var(--accent-colour);
 }
 
